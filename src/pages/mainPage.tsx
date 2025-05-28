@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 const Main = () => {
-  const [상태, 상태변경] = useState("사과");
+  const [상태, 상태변경] = useState("처음");
   function toggle_fruit() {
     if (상태 == "딸기") {
       상태변경("사과");
